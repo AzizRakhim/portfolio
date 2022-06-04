@@ -997,7 +997,7 @@
                         </div>
                       </div>
                       <p class="resume__desc about__text">
-                         I am a leading web developer with award-winning websites
+                        I am a leading web developer with award-winning websites
                       </p>
                     </div>
                   </li>
@@ -1025,7 +1025,7 @@
                         </div>
                       </div>
                       <p class="resume__desc about__text">
-                         I am a leading web developer with award-winning websites
+                        I am a leading web developer with award-winning websites
                       </p>
                     </div>
                   </li>
@@ -1053,7 +1053,7 @@
                         </div>
                       </div>
                       <p class="resume__desc about__text l-text">
-                         I am a leading web developer with award-winning websites
+                        I am a leading web developer with award-winning websites
                       </p>
                     </div>
                   </li>
@@ -1065,7 +1065,7 @@
       </div>
     </div>
     <div class="resume__video-box">
-      <video class="resume__video" src="media/video.mp4" autoplay loop></video>
+      <video class="resume__video" src="media/video.mp4" autoplay="true" loop></video>
       <span class="resume__color-box"></span>
     </div>
   </section>
@@ -1073,7 +1073,7 @@
   <!-- RESUME END -->
   <!-- TESTIMONIAL START -->
 
-  <!-- <section id="testimonial" class="testimonial">
+  <section id="testimonial" class="testimonial">
     <div class="testimonial__container  d-flex">
       <div class="testimonial__left col-6">
         <div class="testimonial__img-holder">
@@ -1090,9 +1090,9 @@
               What people say
             </h3>
           </div>
-          <div class="testimonial__carousel">
-            <ul class="testimonial__list">
-              <li class="testimonial__item">
+          <div id="carouselExampleControls" class="carousel slide testimonial__carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
                 <p class="testimonial__text">
                   I can't believe I got support and my problem resolved in just minutes from posting my question. Simply amazing team and amazing theme! Thank you for all!
                 </p>
@@ -1102,8 +1102,8 @@
                     Freelancer
                   </span>
                 </h3>
-              </li>
-              <li class="testimonial__item">
+              </div>
+              <div class="carousel-item">
                 <p class="testimonial__text">
                   I can't believe I got support and my problem resolved in just minutes from posting my question. Simply amazing team and amazing theme! Thank you for all!
                 </p>
@@ -1113,8 +1113,8 @@
                     Freelancer
                   </span>
                 </h3>
-              </li>
-              <li class="testimonial__item">
+              </div>
+              <div class="carousel-item">
                 <p class="testimonial__text">
                   I can't believe I got support and my problem resolved in just minutes from posting my question. Simply amazing team and amazing theme! Thank you for all!
                 </p>
@@ -1124,13 +1124,15 @@
                     Freelancer
                   </span>
                 </h3>
-              </li>
-            </ul>
+              </div>
+            </div>
             <div class="testimonial__btns">
-              <button class="testimonial__btn t-left">
+              <button class="testimonial__btn t-left" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
                 <i class='bx bx-left-arrow-alt'></i>
               </button>
-              <button class="testimonial__btn t-right">
+              <button class="testimonial__btn t-right" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
                 <i class='bx bx-right-arrow-alt' ></i>
               </button>
             </div>
@@ -1138,7 +1140,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
