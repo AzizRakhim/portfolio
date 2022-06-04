@@ -17,7 +17,8 @@
         "../scss/blocks/_work.scss",
         "../scss/blocks/_service.scss",
         "../scss/blocks/_resume.scss",
-        "../scss/blocks/_testimonial.scss"
+        "../scss/blocks/_testimonial.scss",
+        "../scss/blocks/_blog.scss"
     ],
     "names": [],
     "file": "main.min.css"
