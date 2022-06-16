@@ -49,6 +49,10 @@
   --color-change: #4169e1;
 }
 
+.real-red {
+  --color-change: #ea4343;
+}
+
 .mud-color {
   --color-change: #666d41;
 }
@@ -454,7 +458,7 @@ body {
 .hero__main-img {
   position: absolute;
   right: 0;
-  bottom: -10px;
+  bottom: 0px;
   width: 100%;
 }
 
@@ -716,8 +720,8 @@ body {
     width: 33%;
   }
   .hero__main-img img {
-    width: 327px;
-    height: 521px;
+    width: 450px !important;
+    height: 600px !important;
   }
   .hero__img-one {
     width: 250px;
