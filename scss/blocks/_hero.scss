@@ -18,11 +18,14 @@
   top: 0px;
   right: 100%;
   background-color: #000;
-  padding: 12px 12px 4px 12px;
+  padding: 12px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
   .bx{
-    font-size: 35px;
+    font-size: 26px;
     color: #fff;
     transition: all 0.3s ease;
     animation: setting 2s linear infinite both;

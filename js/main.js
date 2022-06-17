@@ -127,4 +127,76 @@ elColorBtns.forEach((item, index) => {
     document.body.className = "";
     document.body.classList.add(item.classList[1]);
   })
-})
+});
+
+// Nav bar active when scroll
+
+document.querySelector("#hero").addEventListener("mouseenter", () => {
+  elNavItems.forEach((item, index) => {
+    if(index == 0){
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  })
+});
+
+document.querySelector("#about").addEventListener("mouseenter", () => {
+  elNavItems.forEach((item, index) => {
+    if(index == 1){
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  })
+});
+
+document.querySelector("#work").addEventListener("mouseenter", () => {
+  elNavItems.forEach((item, index) => {
+    if(index == 2){
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  })
+});
+
+document.querySelector("#service").addEventListener("mouseenter", () => {
+  elNavItems.forEach((item, index) => {
+    if(index == 3){
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  })
+});
+
+document.querySelector("#testimonial").addEventListener("mouseenter", () => {
+  elNavItems.forEach((item, index) => {
+    if(index == 4){
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  })
+});
+
+document.querySelector("#blog").addEventListener("mouseenter", () => {
+  elNavItems.forEach((item, index) => {
+    if(index == 5){
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  })
+});
+
+document.querySelector("#form").addEventListener("mouseenter", () => {
+  elNavItems.forEach((item, index) => {
+    if(index == 6){
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  })
+});
