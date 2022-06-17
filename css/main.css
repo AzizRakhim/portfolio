@@ -799,13 +799,14 @@ body {
     padding: 25px 40px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    opacity: 0;
-    z-index: -10;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .heightControl {
     height: 264px;
-    opacity: 1;
-    z-index: 10;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
   .header__list {
     -webkit-box-orient: vertical;
