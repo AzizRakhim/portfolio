@@ -2,11 +2,11 @@ let portfolioObj = [
   {
     id : 1,
     name : "Jaegar Resto",
-    img : "../media/images/jaegarResto.png",
+    img : "../media/images/jaegarResto.jpg",
     react : "bx bxl-react",
     type : "react",
     gitHub : "https://github.com/AzizRakhim/jaegarResto.git",
-    netlify : "https://spectacular-pegasus-ddbdbc.netlify.app/"
+    netlify : "https://jaegar-resto-reactjs.netlify.app"
   },
   {
     id : 2,
@@ -55,11 +55,74 @@ let portfolioObj = [
   },
   {
     id : 7,
-    name : "Chess Kit",
-    img : "../media/images/chess-kit.png",
+    name : "Tic Tac Toe",
+    img : "../media/images/tic.jpg",
     react : "bx bxl-javascript",
     type : "javascript",
-    gitHub : "https://github.com/AzizRakhim/chess-kit.git",
-    netlify : "https://chess-kit-aziz-rakhim.netlify.app/"
+    gitHub : "https://github.com/AzizRakhim/tic-tac-toe.git",
+    netlify : "https://tic-tac-toe-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 8,
+    name : "Freshio",
+    img : "../media/images/freshio.png",
+    react : "bx bxs-dashboard",
+    type : "responsive",
+    gitHub : "https://github.com/AzizRakhim/freshio.git",
+    netlify : "https://freshio-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 9,
+    name : "SOS",
+    img : "../media/images/sos.jpg",
+    react : "bx bxs-dashboard",
+    type : "responsive",
+    gitHub : "https://github.com/AzizRakhim/sos.git",
+    netlify : "https://sos-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 10,
+    name : "Freshnesecom",
+    img : "../media/images/freshnesecom.jpg",
+    react : "bx bxs-dashboard",
+    type : "responsive",
+    gitHub : "https://github.com/AzizRakhim/Freshnesecom.git",
+    netlify : "https://freshnesecom-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 11,
+    name : "Instagram",
+    img : "../media/images/instagram.png",
+    react : "bx bxl-javascript",
+    type : "javascript",
+    gitHub : "https://github.com/AzizRakhim/instagram-object.git",
+    netlify : "https://instagram-object-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 12,
+    name : "PizzaHub",
+    img : "../media/images/pizza.png",
+    react : "bx bxl-javascript",
+    type : "javascript",
+    gitHub : "https://github.com/AzizRakhim/pizzaHub.git",
+    netlify : "https://pizza-hub-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 13,
+    name : "MacBro",
+    img : "../media/images/macbro.png",
+    react : "bx bxl-javascript",
+    type : "javascript",
+    gitHub : "https://github.com/AzizRakhim/macbro.git",
+    netlify : "https://macbro-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 14,
+    name : "Rock Paper Scissors",
+    img : "../media/images/rock.jpg",
+    react : "bx bxl-javascript",
+    type : "javascript",
+    gitHub : "https://github.com/AzizRakhim/rock-paper-scissors.git",
+    netlify : "https://rock-paper-scissors-aziz-rakhim.netlify.app"
   }
 ];
