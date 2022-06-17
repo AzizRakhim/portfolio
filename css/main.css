@@ -10,7 +10,7 @@
 }
 
 :root {
-  --color-change: #ea4343;
+  --color-change: #4169e1;
 }
 
 .green {
@@ -1137,7 +1137,7 @@ body {
   position: absolute;
   width: 270px;
   height: 270px;
-  background-color: #ea4343;
+  background-color: var(--color-change);
   bottom: -80px;
   left: -65px;
   z-index: 0;
