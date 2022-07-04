@@ -1,5 +1,14 @@
 let portfolioObj = [
   {
+    id : 19,
+    name : "Fajj Education",
+    img : "../media/images/fajj.png",
+    react : "bx bxl-react",
+    type : "react",
+    gitHub : "https://github.com/AzizRakhim/fajj-education-redux-toolkit.git",
+    netlify : "https://fajj-education-redux-toolkit-aziz-rakhim.netlify.app"
+  },
+  {
     id : 15,
     name : "New Employee",
     img : "../media/images/new-employee.png",
