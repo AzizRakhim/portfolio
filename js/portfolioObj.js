@@ -2,7 +2,7 @@ let portfolioObj = [
   {
     id : 19,
     name : "Fajj Education",
-    img : "../media/images/fajj.png",
+    img : "../media/images/fajj.jpg",
     react : "bx bxl-react",
     type : "react",
     gitHub : "https://github.com/AzizRakhim/fajj-education-redux-toolkit.git",
