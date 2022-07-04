@@ -1,5 +1,14 @@
 let portfolioObj = [
   {
+    id : 15,
+    name : "New Employee",
+    img : "../media/images/new-employee.png",
+    react : "bx bxl-react",
+    type : "react",
+    gitHub : "https://github.com/AzizRakhim/new-employee-redux.git",
+    netlify : "https://new-employee-redux-aziz-rakhim.netlify.app"
+  },
+  {
     id : 1,
     name : "Jaegar Resto",
     img : "../media/images/jaegarResto.jpg",
@@ -63,6 +72,15 @@ let portfolioObj = [
     netlify : "https://tic-tac-toe-aziz-rakhim.netlify.app"
   },
   {
+    id : 16,
+    name : "GreenShop",
+    img : "../media/images/greenshop.jpg",
+    react : "bx bxs-dashboard",
+    type : "responsive",
+    gitHub : "https://github.com/AzizRakhim/greenshop.git",
+    netlify : "https://greenshop-aziz-rakhim.netlify.app"
+  },
+  {
     id : 8,
     name : "Freshio",
     img : "../media/images/freshio.png",
@@ -88,6 +106,24 @@ let portfolioObj = [
     type : "responsive",
     gitHub : "https://github.com/AzizRakhim/Freshnesecom.git",
     netlify : "https://freshnesecom-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 17,
+    name : "Weather",
+    img : "../media/images/weather.png",
+    react : "bx bxs-dashboard",
+    type : "responsive",
+    gitHub : "https://github.com/AzizRakhim/weather.git",
+    netlify : "https://weather-aziz-rakhim.netlify.app"
+  },
+  {
+    id : 18,
+    name : "MacBro",
+    img : "../media/images/macbro.png",
+    react : "bx bxs-dashboard",
+    type : "responsive",
+    gitHub : "https://github.com/AzizRakhim/macbro.git",
+    netlify : "https://macbro-aziz-rakhim.netlify.app"
   },
   {
     id : 11,
