@@ -1,4 +1,4 @@
-.hero__container{
+.hero__container {
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -7,12 +7,12 @@
   transition: all 0.3s ease;
 }
 
-.header{
+.header {
   padding: 30px 0;
   transition: all 0.3s ease;
 }
 
-.header__logo-link{
+.header__logo-link {
   display: inline-block;
   font-size: 50px;
   font-weight: 700;
@@ -21,34 +21,34 @@
   text-transform: capitalize;
   text-decoration: none;
 
-  &:hover{
+  &:hover {
     color: #fff;
   }
 }
 
-.header__list{
+.header__list {
   @include list-style;
 }
 
-.header__item{
-  &:not(:last-child){
+.header__item {
+  &:not(:last-child) {
     margin-right: 45px;
   }
 }
 
-.header-white{
+.header-white {
   background: #fff;
 }
 
-.text-black{
+.text-black {
   color: #15111e;
 }
 
-.header-padding{
+.header-padding {
   padding: 22px 0;
 }
 
-.header__link{
+.header__link {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
@@ -57,173 +57,173 @@
   font-size: 18px;
   line-height: 1.7;
 
-  &.active{
+  &.active {
     color: var(--color-change) !important;
   }
 
-  &:hover{
+  &:hover {
     color: var(--color-change) !important;
   }
 }
 
 @media screen and (max-width: 1400px) {
-  body{
+  body {
     font-size: 16px;
   }
 
-  .header{
+  .header {
     padding: 20px 0;
   }
 
-  .header-padding{
+  .header-padding {
     padding: 15px 0;
   }
 
-  .header__logo-link{
+  .header__logo-link {
     font-size: 40px;
   }
 
-  .header__link{
+  .header__link {
     font-weight: 16;
     font-weight: 600;
   }
 
-  .container{
+  .container {
     max-width: 1070px;
   }
 
-  .header__item{
-    &:not(:last-child){
+  .header__item {
+    &:not(:last-child) {
       margin-right: 30px;
     }
   }
 
-  .hero__hello{
+  .hero__hello {
     font-size: 20px;
     margin-bottom: 10px;
   }
 
-  .hero__name{
+  .hero__name {
     font-size: 80px;
   }
 
-  .hero__creative{
+  .hero__creative {
     font-size: 25px;
   }
 
-  .hero__choices{
+  .hero__choices {
     font-size: 35px;
   }
 
-  .hero__btns-holder{
+  .hero__btns-holder {
     margin-top: 25px;
     margin-bottom: 45px;
   }
 
-  .hero__email-link{
+  .hero__email-link {
     padding: 10px 62px 9px 35px !important;
   }
 
-  .hero__about-box{
+  .hero__about-box {
     margin-left: 28px;
   }
 
-  .hero__img-box{
+  .hero__img-box {
     width: 33%;
   }
 
-  .hero__main-img{
-    img{
+  .hero__main-img {
+    img {
       width: 450px !important;
       height: 600px !important;
     }
   }
 
-  .hero__img-one{
+  .hero__img-one {
     width: 250px;
     top: 100px;
     bottom: 100px;
   }
 
-  .hero__img-two{
+  .hero__img-two {
     width: 170px;
     height: 170px;
     bottom: 60px;
   }
 
-  .hero__img-three{
+  .hero__img-three {
     width: 60px;
     height: 90px;
     top: 150px;
     left: -85px;
   }
 
-  .hero__img-four{
+  .hero__img-four {
     width: 285px;
     height: 305px;
   }
 
-  .hero__img-five{
+  .hero__img-five {
     width: 35px;
     height: 50px;
     right: -135px;
   }
 
-  .hero__opacity-name{
+  .hero__opacity-name {
     font-size: 200px;
     right: -125px;
     margin-top: -44px;
   }
 
-  .socials{
+  .socials {
     left: 30px;
   }
 
-  .socials__item{
-    &:not(:last-child){
+  .socials__item {
+    &:not(:last-child) {
       margin: 0 0 10px;
     }
   }
 
-  .socials__link{
-    .bx{
+  .socials__link {
+    .bx {
       font-size: 20px;
     }
   }
 
-  .hero__float-email{
+  .hero__float-email {
     left: 30px;
     bottom: 20px;
   }
 
-  .hero__float-email-link{
+  .hero__float-email-link {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 1040px) {
-  .hero__container{
+  .hero__container {
     background-color: #fff;
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding: 15px 20px;
   }
 
-  .header{
+  .header {
     padding: 0 !important;
   }
 
-  .container{
+  .container {
     width: 100%;
     padding: 0;
   }
 
-  .header__logo-link{
+  .header__logo-link {
     color: #000 !important;
     font-size: 35px;
     line-height: 100%;
   }
-  
-  .header__nav{
+
+  .header__nav {
     position: fixed;
     top: 66px;
     left: 0;
@@ -237,31 +237,31 @@
     padding-bottom: 0;
   }
 
-  .heightControl{
+  .heightControl {
     height: 264px;
     padding-top: 25px;
     padding-bottom: 25px;
   }
 
-  .header__list{
+  .header__list {
     flex-direction: column;
     align-items: flex-start !important;
   }
 
-  .header__link{
+  .header__link {
     color: #000;
     margin-left: auto;
 
-    &.active{
+    &.active {
       color: #000;
     }
 
-    &:hover{
+    &:hover {
       color: #000;
     }
   }
 
-  .hero__menu-btn{
+  .hero__menu-btn {
     display: block !important;
     width: 30px;
     height: 24px;
@@ -270,7 +270,7 @@
     position: relative;
   }
 
-  .hero__menu-line{
+  .hero__menu-line {
     width: 100%;
     height: 2px;
     position: absolute;
@@ -280,7 +280,7 @@
     border-radius: 4px;
     background-color: #000;
 
-    &::before{
+    &::before {
       content: "";
       display: inline-block;
       width: 100%;
@@ -293,7 +293,7 @@
       left: 0;
     }
 
-    &::after{
+    &::after {
       content: "";
       display: inline-block;
       width: 100%;
@@ -307,47 +307,53 @@
     }
   }
 
-  .rotate-it{
-    transform: translate3d(0,10px,0) rotate(45deg);
+  .rotate-it {
+    transform: translate3d(0, 10px, 0) rotate(45deg);
 
-    &::before{
-      transform: rotate(-45deg) translate3d(-5.71429px,-6px,0);
+    &::before {
+      transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
       opacity: 0;
     }
 
-    &::after{
-      transform: translate3d(0,-20px,0) rotate(-90deg);
+    &::after {
+      transform: translate3d(0, -20px, 0) rotate(-90deg);
     }
   }
 
-  .hero__content{
+  .hero__content {
     width: 100%;
     margin-left: 20px;
   }
 
-  .hero__img-box{
+  .hero__img-box {
     display: none;
   }
 
-  .socials{
+  .socials {
     display: none;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero__name{
+  .hero__name {
     font-size: 60px;
   }
 
-  .hero__creative{
+  .hero__creative {
     font-size: 20px;
   }
 
-  .hero__choices{
+  .hero__choices {
     font-size: 30px;
   }
 
-  .hero__about-box{
+  .hero__about-box {
     margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero__surname {
+    display: none;
   }
 }

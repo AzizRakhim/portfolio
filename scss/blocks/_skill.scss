@@ -1,55 +1,55 @@
-#skill{
+#skill {
   background-color: var(--color-change);
 }
 
-.skill__container{
+.skill__container {
   padding: 160px 0 557px;
   position: relative;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.skill__left{
+.skill__left {
   width: 50%;
   padding-right: 63px;
 }
 
-.skill__left-box{
+.skill__left-box {
   width: 100%;
   max-width: 620px;
 }
 
-.skill__me{
+.skill__me {
   color: #fff;
 }
 
-.skill__title{
+.skill__title {
   text-transform: capitalize;
   color: #fff;
 }
 
-.skill__text{
+.skill__text {
   margin-top: 32px;
   margin-bottom: 0;
   color: #fff;
 }
 
-.skill__right{
+.skill__right {
   width: 50%;
   padding-left: 63px;
   position: relative;
   top: -8px;
 }
 
-.skill__progress-box{
+.skill__progress-box {
   width: 100%;
 
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-bottom: 27px;
   }
 }
 
-.skill__name-box{
+.skill__name-box {
   margin: 0 0 13px;
   width: 100%;
   color: #fff;
@@ -60,12 +60,12 @@
   justify-content: space-between;
 }
 
-.skill__num{
+.skill__num {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 
-.skill__line{
+.skill__line {
   background: #ffffff4d;
   width: 100%;
   min-width: 100%;
@@ -74,26 +74,26 @@
   border-radius: 25px;
 }
 
-.skill__colored-line{
+.skill__colored-line {
   height: 100%;
   background: #fff;
   border-radius: 25px 0 0 25px;
   overflow: hidden;
 }
 
-.html{
+.html {
   width: 90%;
 }
 
-.java{
+.java {
   width: 86%;
 }
 
-.react{
+.react {
   width: 60%;
 }
 
-.skill__border{
+.skill__border {
   position: absolute;
   width: 1000px;
   height: 420px;
@@ -104,62 +104,63 @@
 }
 
 @media screen and (max-width: 1400px) {
-  .skill__left-box{
+  .skill__left-box {
     max-width: 500px;
   }
 
-  .about__text{
+  .about__text {
     font-size: 16px;
   }
 
-  .skill__name-box{
+  .skill__name-box {
     margin-bottom: 8px;
 
-    span{
+    span {
       font-size: 19px;
     }
   }
 
-  .skill__border{
+  .skill__border {
     bottom: -167px;
     margin-right: -210px;
   }
 }
 
 @media screen and (max-width: 1040px) {
-  .container{
+  .container {
     padding: 0 20px;
   }
-  .skill__container{
+
+  .skill__container {
     flex-direction: column;
   }
 
-  .skill__left{
+  .skill__left {
     width: 100%;
     padding-right: 0;
     margin-bottom: 50px;
   }
 
-  .skill__left-box{
+  .skill__left-box {
     max-width: 100%;
   }
 
-  .about__title{
+  .about__title {
     font-size: 30px;
   }
 
-  .skill__right{
+  .skill__right {
     width: 100%;
     padding-left: 0;
   }
 
-  .skill__border{
+  .skill__border {
     display: none;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .skill__container{
+  .skill__container {
     padding-top: 130px;
     padding-bottom: 527px;
   }

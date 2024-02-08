@@ -22,14 +22,13 @@ window.onscroll = () => {
 };
 
 scrollNavbar = () => {
-
-  if(document.documentElement.scrollTop > 0){
+  if (document.documentElement.scrollTop > 25) {
     elHeader.classList.add("header-padding");
-    elHeroContainer.classList.add("header-white")
+    elHeroContainer.classList.add("header-white");
     elHeaderLogo.style.color = "#000";
 
     elHeaderLinks.forEach((item) => {
-      item.classList.add("text-black")
+      item.classList.add("text-black");
     });
   } else {
     elHeader.classList.remove("header-padding");
@@ -40,7 +39,7 @@ scrollNavbar = () => {
       item.classList.remove("text-black");
     });
   }
-}
+};
 
 // NAV COLOR CHANGE
 
@@ -50,10 +49,10 @@ elNavItems.forEach((item) => {
   item.addEventListener("click", () => {
     elNavItems.forEach((el) => {
       el.classList.remove("active");
-    })
+    });
     item.classList.add("active");
-  })
-})
+  });
+});
 
 // PORTFOLIO FILTER
 
@@ -62,13 +61,13 @@ let elPortfolioList = document.querySelector(".work__example-list");
 
 clickedMe("react");
 
-function clickedMe(type){
-  elPortfolioList.innerText = ""
+function clickedMe(type) {
+  elPortfolioList.innerText = "";
   portfolioObj.forEach((item) => {
-    if(item.type == type.toLowerCase()){
+    if (item.type == type.toLowerCase()) {
       let elItem = document.createElement("li");
       elItem.className = "work__example-item col-12 col-lg-4";
-  
+
       elItem.innerHTML = `
         <div class="work__item-inner">
           <div class="work__bg-holder">
@@ -95,10 +94,10 @@ function clickedMe(type){
           </div>
         </div>
       `;
-  
+
       elPortfolioList.appendChild(elItem);
     }
-  })
+  });
 }
 
 elBtns.forEach((item) => {
@@ -111,7 +110,7 @@ let elSetting = document.querySelector(".color__icon-box");
 let num = 0;
 
 elSetting.addEventListener("click", () => {
-  if(num == 0){
+  if (num == 0) {
     elSetting.parentNode.style.right = "0px";
     num++;
   } else {
@@ -126,77 +125,77 @@ elColorBtns.forEach((item, index) => {
   item.addEventListener("click", () => {
     document.body.className = "";
     document.body.classList.add(item.classList[1]);
-  })
+  });
 });
 
 // Nav bar active when scroll
 
 document.querySelector("#hero").addEventListener("mouseenter", () => {
   elNavItems.forEach((item, index) => {
-    if(index == 0){
+    if (index == 0) {
       item.classList.add("active");
     } else {
       item.classList.remove("active");
     }
-  })
+  });
 });
 
 document.querySelector("#about").addEventListener("mouseenter", () => {
   elNavItems.forEach((item, index) => {
-    if(index == 1){
+    if (index == 1) {
       item.classList.add("active");
     } else {
       item.classList.remove("active");
     }
-  })
+  });
 });
 
 document.querySelector("#work").addEventListener("mouseenter", () => {
   elNavItems.forEach((item, index) => {
-    if(index == 2){
+    if (index == 2) {
       item.classList.add("active");
     } else {
       item.classList.remove("active");
     }
-  })
+  });
 });
 
 document.querySelector("#service").addEventListener("mouseenter", () => {
   elNavItems.forEach((item, index) => {
-    if(index == 3){
+    if (index == 3) {
       item.classList.add("active");
     } else {
       item.classList.remove("active");
     }
-  })
+  });
 });
 
 document.querySelector("#testimonial").addEventListener("mouseenter", () => {
   elNavItems.forEach((item, index) => {
-    if(index == 4){
+    if (index == 4) {
       item.classList.add("active");
     } else {
       item.classList.remove("active");
     }
-  })
+  });
 });
 
 document.querySelector("#blog").addEventListener("mouseenter", () => {
   elNavItems.forEach((item, index) => {
-    if(index == 5){
+    if (index == 5) {
       item.classList.add("active");
     } else {
       item.classList.remove("active");
     }
-  })
+  });
 });
 
 document.querySelector("#form").addEventListener("mouseenter", () => {
   elNavItems.forEach((item, index) => {
-    if(index == 6){
+    if (index == 6) {
       item.classList.add("active");
     } else {
       item.classList.remove("active");
     }
-  })
+  });
 });
