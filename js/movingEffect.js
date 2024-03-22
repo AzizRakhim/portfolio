@@ -9,24 +9,34 @@ function aali_tm_moving_animation() {
   var offset = 0;
 
   details.forEach(function (detail) {
-    var direction = detail.getAttribute("data-direction");
+    var element = detail;
+    var direction = element.getAttribute("data-direction");
+
     window.addEventListener("scroll", function () {
       offset = window.pageYOffset || document.documentElement.scrollTop;
-      var windowHeight = window.innerHeight;
-      var elementOffsetTop = detail.getBoundingClientRect().top - offset;
-      if (detail.getAttribute("data-reverse") == "yes") {
-        elementOffsetTop *= -1;
-      }
-      var x = direction === "x" ? (elementOffsetTop * 70) / windowHeight : 0;
-      var y = direction === "x" ? 0 : (elementOffsetTop * 70) / windowHeight;
-      if (detail.getAttribute("data-reverse") == "yes") {
-        elementOffsetTop *= -1;
-      }
-      if (
-        elementOffsetTop * -1 < windowHeight + 300 &&
-        elementOffsetTop < 300
-      ) {
-        detail.style.transform = "translate3d(" + x + "px, " + y + "px, 0px)";
+      var viewportHeight = window.innerHeight;
+      var rect = element.getBoundingClientRect();
+
+      // Check if the top or bottom of the element is within the viewport
+      var isInView =
+        (rect.top >= 0 && rect.top <= viewportHeight) ||
+        (rect.bottom >= 0 && rect.bottom <= viewportHeight);
+
+      if (isInView) {
+        var i = rect.top - viewportHeight;
+
+        if (element.getAttribute("data-reverse") == "yes") {
+          i *= -1;
+        }
+
+        var x = direction === "x" ? (i * 70) / viewportHeight : 0;
+        var y = direction === "y" ? (i * 70) / viewportHeight : 0;
+
+        if (element.getAttribute("data-reverse") == "yes") {
+          i *= -1;
+        }
+
+        element.style.transform = "translate3d(" + x + "px, " + y + "px, 0px)";
       }
     });
   });
