@@ -295,8 +295,16 @@
         <div class="about__left">
           <div class="about__left-img-box">
             <img src="https://picsum.photos/id/1/333/362" />
-            <span class="about__box-one"></span>
-            <span class="about__border-one"></span>
+            <span
+              class="about__box-one moving_effect"
+              data-direction="y"
+              data-reverse="yes"
+            >
+            </span>
+            <span class="about__border-one">
+              <span class="moving_effect" data-direction="x" data-reverse="yes">
+              </span
+            ></span>
           </div>
         </div>
         <div class="about__info">
@@ -345,7 +353,11 @@
         <div class="about__right-img-box">
           <div class="about__right-bc-img-holder">
             <img src="https://picsum.photos/id/5/327/487" alt="coworker" />
-            <div class="about__square"></div>
+            <div
+              class="about__square moving_effect"
+              data-direction="x"
+              data-reverse="no"
+            ></div>
           </div>
         </div>
       </div>
@@ -1562,6 +1574,7 @@
     <script src="js/codyhouse.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/wow.js"></script>
+    <script src="js/movingEffect.js"></script>
     <script>
       var scene = document.getElementById("parallax");
       var parallaxInstance = new Parallax(scene);

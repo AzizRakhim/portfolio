@@ -47,7 +47,13 @@
   transform: translateY(-50%);
   margin-right: -50px;
   z-index: 2;
-  border: 6px solid #fff;
+
+  span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #fff;
+  }
 }
 
 .about__info {
