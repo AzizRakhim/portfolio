@@ -71,8 +71,8 @@ function clickedMe(type) {
       elItem.innerHTML = `
         <div class="work__item-inner">
           <div class="work__bg-holder">
-            <div class="work__bimg">
-              <img src="${item.img}" alt"${elItem.name}" />
+            <div class="work__bimg" style="background: ${item.color};">
+              <img src="${item.img}" alt="${elItem.name}" style="object-fit: contain;" />
             </div>
           </div>
           <div class="work__whole-color"></div>
