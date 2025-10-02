@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Delivery Web app",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,27 +72,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Brainwave – Sleek UI/UX Landing Page",
+    des: "Experience modern UI/UX design with this interactive web app built using React and Tailwind.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/vite.svg", "/rjp.svg"],
+    link: "https://github.com/AzizRakhim/brainwave",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Interactive 3D Portfolio Website",
+    des: "A dynamic personal portfolio featuring 3D models, transitions, and responsive layouts.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://github.com/AzizRakhim/3d-portfolio",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Auth App – Secure Dashboard Application",
+    des: "A responsive dashboard featuring secure auth, smooth performance, and modern design.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/vite.svg", "/red.svg"],
+    link: "https://github.com/AzizRakhim/auth-app",
   },
   {
     id: 4,
@@ -100,73 +100,73 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://github.com/AzizRakhim/apple-website",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Aziz was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aziz's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Aziz is the ideal partner.",
+    name: "Said Xasanjanov",
+    title: "Director of Musait Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Aziz was a remarkable experience. His deep knowledge of modern technologies, combined with his clear communication, ensured our project stayed on track from start to finish. Aziz approaches every challenge with creativity and determination, making the final product exceed expectations.",
+    name: "Shakhzod Nematullah",
+    title: "Product Manager at Ubay Global",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Aziz is a developer who truly cares about quality and user experience. Throughout our collaboration, he consistently demonstrated reliability, precision, and a passion for delivering results. His ability to transform complex ideas into smooth solutions left a lasting impression on our entire team.",
+    name: "Nasriddinov Toxir",
+    title: "Founder of Natija",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Partnering with Aziz brought tremendous value to our project. His problem-solving skills, attention to detail, and proactive mindset made the development process smooth and efficient. Aziz not only delivered exceptional results but also added thoughtful suggestions that elevated the final outcome.",
+    name: "Kamoliddin",
+    title: "CTO at JPoint",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Aziz is a true professional whose work ethic and technical expertise are outstanding. From the very beginning, he showed dedication to creating a product that aligned with our vision. His ability to combine technical precision with creative insight makes him a standout collaborator.",
+    name: "Jamoliddin",
+    title: "CEO of Mediapark",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "SuvGO",
+    img: "/suvGo.svg",
+    nameImg: "/suvGoName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Ubay",
+    img: "/ubay.svg",
+    nameImg: "/ubayName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Mediapark",
+    img: "/mp.svg",
+    nameImg: "/mpName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "JPoint",
+    img: "/jp.svg",
+    nameImg: "/jPointName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "/ss.svg",
+    nameImg: "/ssName.svg",
   },
 ];
 
@@ -180,15 +180,15 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "UI Developer - Mediapark",
+    desc: "Collaborated with designers to implement pixel-perfect user interfaces using React and TailwindCSS.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Frontend Project",
+    desc: "Developed a responsive web interface with modern frameworks, focusing on performance and accessibility.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" aria-label="Logo">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff70b0;
+      }
+
+      .cls-2 {
+        fill: #4fa6ff;
+      }
+
+      .cls-3 {
+        fill: #ffb66b;
+      }
+
+      .cls-4 {
+        fill: #6d66ff;
+      }
+    </style>
+  </defs>
+
+  <!-- original logo, centered inside 48x48 -->
+  <g transform="translate(10,6)">
+    <rect class="cls-1" y="0" width="7.47" height="35.89" rx="3.69" ry="3.69" />
+    <rect class="cls-2" x="7.47" y="5.37" width="7.47" height="35.89" rx="3.69" ry="3.69" />
+    <rect class="cls-3" x="14.95" y="-3.22" width="7.47" height="35.89" rx="3.69" ry="3.69" />
+    <rect class="cls-4" x="22.42" y="0.21" width="7.47" height="35.89" rx="3.69" ry="3.69" />
+  </g>
+</svg>

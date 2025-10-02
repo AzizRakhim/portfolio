@@ -22,7 +22,6 @@ export const FloatingNav = ({
 }) => {
   const { scrollYProgress } = useScroll();
 
-  // set true for the initial state so that nav bar is visible in the hero section
   const [visible, setVisible] = useState(true);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
@@ -31,7 +30,6 @@ export const FloatingNav = ({
       let direction = current! - scrollYProgress.getPrevious()!;
 
       if (scrollYProgress.get() < 0.05) {
-        // also set true for the initial state
         setVisible(true);
       } else {
         if (direction < 0) {
@@ -77,8 +75,6 @@ export const FloatingNav = ({
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            {/* add !cursor-pointer */}
-            {/* remove hidden sm:block for the mobile responsive */}
             <span className=" text-sm !cursor-pointer">{navItem.name}</span>
           </Link>
         ))}
